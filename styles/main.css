@@ -105,4 +105,81 @@ body {
 .hero .icon--10 {
   grid-column: 10;
   grid-row: 3;
+}
+
+.section2_hero {
+  background-color: #b79cff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+  position: relative;
+}
+.section2_hero__overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  z-index: 10;
+}
+.section2_hero__overlay .background {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100dvh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.section2_hero__overlay .background .bgimage {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+.section2_hero__content {
+  z-index: 11;
+  flex: 4;
+}
+.section2_hero__content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  margin-bottom: 2rem;
+}
+.section2_hero__content .btn {
+  background-color: #b79cff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.section2_hero__content .btn:hover {
+  background-color: #6B1065;
+}
+.section2_hero__images {
+  flex: 2;
+  position: relative;
+}
+.section2_hero__images .tablet {
+  position: absolute;
+  min-height: 463px;
+}
+.section2_hero__images .tablet--back {
+  right: -80px;
+  top: -363px;
+  z-index: 2;
+  opacity: 0.9;
+}
+.section2_hero__images .tablet--front {
+  right: 0;
+  top: -100px;
+  z-index: 12;
 }/*# sourceMappingURL=main.css.map */
