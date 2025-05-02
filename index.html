@@ -4,38 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creative Team Tools</title>
+
+    <!-- AOS Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    
+    <!-- Main CSS -->
     <link rel="stylesheet" href="styles/main.css" />
   </head>
+
   <body>
     <!------------------------------SECTION 01------------------------------------>
-    <section class="hero">
-      <div class="hero__content">
+    <section class="hero" data-aos="fade-up">
+      <div class="hero__content" data-aos="fade-right">
         <h1>Ideas Galore for <br />Your Creative Team</h1>
         <p>Leverage our curated tools or build custom integrations</p>
         <a href="#" class="btn-primary">Discover Solutions Studio</a>
       </div>
-      <!-----------------------------BACKGROUND-------------------------------------->
+
       <div class="hero__icons">
-        <div class="icon icon--1"><img src="icons/1.svg" alt="Icon 1" /></div>
-        <div class="icon icon--2"><img src="icons/2.svg" alt="Icon 2" /></div>
-        <div class="icon icon--3"><img src="icons/3.svg" alt="Icon 3" /></div>
-        <div class="icon icon--4"><img src="icons/4.svg" alt="Icon 4" /></div>
-        <div class="icon icon--5"><img src="icons/5.svg" alt="Icon 5" /></div>
-        <div class="icon icon--6"><img src="icons/6.svg" alt="Icon 6" /></div>
-        <div class="icon icon--7"><img src="icons/7.svg" alt="Icon 7" /></div>
-        <div class="icon icon--8"><img src="icons/8.svg" alt="Icon 8" /></div>
-        <div class="icon icon--9"><img src="icons/9.svg" alt="Icon 9" /></div>
-        <div class="icon icon--10">
-          <img src="icons/10.svg" alt="Icon 10" />
-        </div>
+        <div class="icon icon--1" data-aos="fade-up" data-aos-delay="100"><img src="icons/1.svg" alt="Icon 1" /></div>
+        <div class="icon icon--2" data-aos="fade-up" data-aos-delay="200"><img src="icons/2.svg" alt="Icon 2" /></div>
+        <div class="icon icon--3" data-aos="fade-up" data-aos-delay="300"><img src="icons/3.svg" alt="Icon 3" /></div>
+        <div class="icon icon--4" data-aos="fade-up" data-aos-delay="400"><img src="icons/4.svg" alt="Icon 4" /></div>
+        <div class="icon icon--5" data-aos="fade-up" data-aos-delay="500"><img src="icons/5.svg" alt="Icon 5" /></div>
+        <div class="icon icon--6" data-aos="fade-up" data-aos-delay="600"><img src="icons/6.svg" alt="Icon 6" /></div>
+        <div class="icon icon--7" data-aos="fade-up" data-aos-delay="700"><img src="icons/7.svg" alt="Icon 7" /></div>
+        <div class="icon icon--8" data-aos="fade-up" data-aos-delay="800"><img src="icons/8.svg" alt="Icon 8" /></div>
+        <div class="icon icon--9" data-aos="fade-up" data-aos-delay="900"><img src="icons/9.svg" alt="Icon 9" /></div>
+        <div class="icon icon--10" data-aos="fade-up" data-aos-delay="1000"><img src="icons/10.svg" alt="Icon 10" /></div>
       </div>
-      <!----------------------------------------------------------------------------->
     </section>
 
     <!---------------------------SECTION 02-------------------------------------->
+    <section class="section2_hero" data-aos="fade-up">
+      <div class="background">
+        <img src="images/background.svg" alt="background" class="bgimage" />
+      </div>
 
-    <section class="section2_hero">
-      <div class="section2_hero__overlay">
+      <div class="section2_hero__overlay" data-aos="zoom-in">
         <div class="section2_hero__content">
           <h1>
             AI Automation:<br />Elevating Team Efficiency<br />and Scalability
@@ -43,32 +49,20 @@
           <a href="#" class="btn">Get Your Free Guide</a>
         </div>
         <div class="section2_hero__images">
-          <img
-            src="images/mockup-front.svg"
-            alt="Tablet Front"
-            class="tablet tablet--front"
-          />
-          <img
-            src="images/mockup-back.svg"
-            alt="Tablet Back"
-            class="tablet tablet--back"
-          />
-        </div>
-        <div class="background">
-          <img src="images/background.webp" alt="background" class="bgimage" />
+          <img src="images/mockup-front.svg" alt="Tablet Front" data-aos="fade-up" class="tablet tablet--front" />
+          <img src="images/mockup-back.svg" alt="Tablet Back" data-aos="fade-down" class="tablet tablet--back" />
         </div>
       </div>
     </section>
-        <!---------------------------SECTION 02-------------------------------------->
 
     <!---------------------------SECTION 03-------------------------------------->
-    <section class="testimonial-section3">
+    <section class="testimonial-section3" data-aos="fade-left">
       <div class="background"></div>
-  
+
       <div class="container">
         <div class="card-wrapper">
           <img src="icons/arrow-left.svg" alt="Previous" class="arrow arrow--left" />
-          
+
           <div class="card">
             <img src="images/gartner-badge.png" alt="Gartner Badge" class="badge" />
             <div class="rating">
@@ -80,12 +74,15 @@
               <img src="icons/star-empty.svg" alt="☆" />
             </div>
           </div>
-  
+
           <img src="icons/arrow-right.svg" alt="Next" class="arrow arrow--right" />
         </div>
-  
+
         <div class="text-content">
-          <h1>Top–Ranked <br /> Collaboration Tool</h1>
+          <h1>
+            Top–Ranked <br />
+            Collaboration Tool
+          </h1>
           <p>
             “As a developer using this platform, I’m impressed. Building workflows<br />
             with the ready–made components made the product immediately<br />
@@ -96,12 +93,59 @@
     </section>
 
     <!---------------------------SECTION 04-------------------------------------->
-    <section class="connect-section4">
+    <section class="connect-section4" data-aos="zoom-in-up">
       <div class="connect__content">
-        <h1>Eager to Begin<br/>Your Journey?</h1>
+        <h1 class="animated-heading">
+          <span>Eager</span> <span>to</span> <span>Begin</span><br />
+          <span>Your</span> <span>Journey?</span>
+        </h1>
         <button class="connect__button">Let's Connect</button>
       </div>
     </section>
-    
+
+    <!---------------------------SCRIPTS------------------------------------------>
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1800,
+        once: false,
+      });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.from(".animated-heading span", {
+        scrollTrigger: {
+          trigger: ".connect-section4",
+          start: "top 80%",
+          toggleActions: "play reverse play reverse",
+        },
+        opacity: 0,
+        y: 50,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power3.out"
+      });
+    </script>
+
+    <!-- Reveal Observer -->
+    <script>
+      const reveals = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+          }
+        });
+      }, {
+        threshold: 0.2
+      });
+      reveals.forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
